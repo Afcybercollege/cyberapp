@@ -3,7 +3,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
-    background: white;
+    background-image: url("images/brickwall.jpg");
+	background-size: cover;
 }
 
 body.dark {
@@ -80,7 +81,9 @@ h3.written-in-ink {
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
-    background: white;
+    background: white;	
+	box-shadow: 5px 10px 5px grey;
+	border:solid grey 1px;
 }
 
 .dark .container {
@@ -132,9 +135,10 @@ strong {
 }
 
 img {
-    display: block;
+    display: auto;
     margin: 0 auto;
     max-width: 100%;
+
 }
 
 .container .hide {

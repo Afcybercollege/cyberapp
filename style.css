@@ -63,27 +63,28 @@ h3.written-in-ink {
 
 /* Seems necessary to make iframes work on itch.io on mobile iOS :-( */
 .outerContainer {
-    position: absolute;
-    display: block;
+    position: absolute;    
+	display: auto;
     margin: 0;
     padding: 0;
     -webkit-overflow-scrolling: touch;
-    overflow: scroll;
-    height: 100%;
+    overflow: visible;
+    height: 110%;
     width: 100%;
     top: 0;
     left: 0;
 }
 
 .container {
-    display: block;
-    max-width: 600px;
+    display: visible;
+    max-width: 700px;
     margin: 0 auto;
     padding: 20px;
     padding-top: 4em;
     background: white;	
 	box-shadow: 5px 10px 5px grey;
 	border:solid grey 1px;
+	
 }
 
 .dark .container {
@@ -179,8 +180,10 @@ p.choice a {
 .end {
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: #666;
     padding-top: 20px;
     padding-bottom: 20px;
+	size: 21px;
+	text-transform: uppercase;
 }
 © 2019 GitHub, Inc.

@@ -140,7 +140,8 @@
         storyContainer.style.height = contentBottomEdgeY()+"px";
 
         if( !firstTime )
-            scrollDown(previousBottomEdge);
+          scrollDown(previousBottomEdge);
+			
     }
 
     function restart() {
